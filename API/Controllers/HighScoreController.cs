@@ -8,17 +8,17 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace gameapi.Controllers{
 
-    [Route("game/players")]
-    public class PlayersController : Controller    {
-        private PlayersProcessor _processor;
-        public PlayersController(PlayersProcessor processor)        {
+    [Route("game/highscores")]
+    public class HighScoresController : Controller    {
+        private HighScoresProcessor _processor;
+        public HighScoresController(HighScoresProcessor processor)        {
             _processor = processor;
         }
 
         
         // Tehtävä 2
         [HttpGet("{name}")]
-        public Task<Player> Get(string name)        {
+        public Task<HighScore> Get(string name)        {
             return _processor.GetByName(name);
         }
         [HttpPost]

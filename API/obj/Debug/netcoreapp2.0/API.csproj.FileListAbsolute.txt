@@ -1,0 +1,10 @@
+C:\Users\valtt\Documents\GitHub\Pelisovellusten_taustajarjestelmat\API\bin\Debug\netcoreapp2.0\API.deps.json
+C:\Users\valtt\Documents\GitHub\Pelisovellusten_taustajarjestelmat\API\bin\Debug\netcoreapp2.0\API.runtimeconfig.json
+C:\Users\valtt\Documents\GitHub\Pelisovellusten_taustajarjestelmat\API\bin\Debug\netcoreapp2.0\API.runtimeconfig.dev.json
+C:\Users\valtt\Documents\GitHub\Pelisovellusten_taustajarjestelmat\API\bin\Debug\netcoreapp2.0\API.dll
+C:\Users\valtt\Documents\GitHub\Pelisovellusten_taustajarjestelmat\API\bin\Debug\netcoreapp2.0\API.pdb
+C:\Users\valtt\Documents\GitHub\Pelisovellusten_taustajarjestelmat\API\obj\Debug\netcoreapp2.0\API.csproj.CoreCompileInputs.cache
+C:\Users\valtt\Documents\GitHub\Pelisovellusten_taustajarjestelmat\API\obj\Debug\netcoreapp2.0\API.AssemblyInfoInputs.cache
+C:\Users\valtt\Documents\GitHub\Pelisovellusten_taustajarjestelmat\API\obj\Debug\netcoreapp2.0\API.AssemblyInfo.cs
+C:\Users\valtt\Documents\GitHub\Pelisovellusten_taustajarjestelmat\API\obj\Debug\netcoreapp2.0\API.dll
+C:\Users\valtt\Documents\GitHub\Pelisovellusten_taustajarjestelmat\API\obj\Debug\netcoreapp2.0\API.pdb
