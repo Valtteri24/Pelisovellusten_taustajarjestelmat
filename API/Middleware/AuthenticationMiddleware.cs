@@ -26,7 +26,7 @@ namespace API.Middleware
             if (!context.Request.Headers.Keys.Contains("apikey"))
             {
                 context.Response.StatusCode = 400; //Bad Request                
-                await context.Response.WriteAsync("User Key is missing");
+                await context.Response.WriteAsync("Please enter API key.");
                 return;
             }
             else
@@ -34,7 +34,7 @@ namespace API.Middleware
                 if (_appSettings.apikey != context.Request.Headers["apikey"])
                 {
                     context.Response.StatusCode = 401; //UnAuthorized
-                    await context.Response.WriteAsync("Invalid User Key");
+                    await context.Response.WriteAsync("API key invalid.");
                     return;
                 }
             }
