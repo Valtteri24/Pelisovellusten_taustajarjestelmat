@@ -16,7 +16,6 @@ namespace gameapi.Controllers{
         }
 
         
-        // Tehtävä 2
         [HttpGet("{name}")]
         public Task<Player> Get(string name)        {
             return _processor.GetByName(name);
@@ -28,14 +27,12 @@ namespace gameapi.Controllers{
         }
 
 
-        // Tehtävät 1, 4, 11
         [HttpGet]
         public Task<Player[]> GetAll(int minScore, string itemType)        {
             return _processor.GetAll(minScore, itemType);
         }
 
 
-        // Tehtävä 5
         [HttpGet("{num:int}")]
         public Task<Player[]> GetBySize(int num)        {
             return _processor.GetBySize(num);
@@ -46,21 +43,18 @@ namespace gameapi.Controllers{
         }
 
 
-        //Tehtävät 6, 7
         [HttpPut("{name:minlength(1)}")]
         public Task<Player> UpdatePlayerNameAndScore(string name, string newName, int score)        {
             return _processor.UpdatePlayerNameAndScore(name, newName, score);
         }
 
 
-        // Tehtävä 8
         [HttpPost("{id}")]
         public Task<Player> PushItem(Guid id, string type, int level)        {
             return _processor.PushItem(id, type, level);
         }
 
 
-        // Tehtävä 9
         [HttpGet("{asd:bool}")]
         public Task<Player[]> GetTopTen()        {
             return _processor.GetTopTen();
